@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const bcrypt = require("./pkg/bcrypt_wasm");
+const bcrypt = require("./pkg/bcrypt_fast");
 
 const start = process.hrtime();
 

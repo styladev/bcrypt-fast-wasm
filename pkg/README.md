@@ -11,11 +11,11 @@ $ make
 ### Usage
 
 ```sh
-$ yarn add bcrypt-wasm
+$ yarn add bcrypt-fast
 ```
 
 ```javascript
-const bcrypt = require("bcrypt-wasm");
+const bcrypt = require("bcrypt-fast");
 
 const start = process.hrtime();
 

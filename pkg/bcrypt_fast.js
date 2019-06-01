@@ -16,7 +16,7 @@ function getStringFromWasm(ptr, len) {
     return cachedTextDecoder.decode(getUint8Memory().subarray(ptr, ptr + len));
 }
 
-module.exports.__wbg_log_30a675f9aae8d415 = function(arg0, arg1) {
+module.exports.__wbg_log_ba0ef557d7bcf361 = function(arg0, arg1) {
     let varg0 = getStringFromWasm(arg0, arg1);
     console.log(varg0);
 };
@@ -174,5 +174,5 @@ function dropObject(idx) {
 
 module.exports.__wbindgen_object_drop_ref = function(i) { dropObject(i); };
 
-wasm = require('./bcrypt_wasm_bg');
+wasm = require('./bcrypt_fast_bg');
 

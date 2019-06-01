@@ -1,15 +1,19 @@
 {
-  "name": "bcrypt-wasm",
+  "name": "bcrypt-fast",
   "collaborators": [
-    "Kenan Sulayman <kenan@sly.mn>"
+    "Kenan Sulayman <kenan@styla.com>"
   ],
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/styladev/bcrypt-fast-wasm"
+  },
   "files": [
-    "bcrypt_wasm_bg.wasm",
-    "bcrypt_wasm.js",
-    "bcrypt_wasm_bg.js",
-    "bcrypt_wasm.d.ts"
+    "bcrypt_fast_bg.wasm",
+    "bcrypt_fast.js",
+    "bcrypt_fast_bg.js",
+    "bcrypt_fast.d.ts"
   ],
-  "main": "bcrypt_wasm.js",
-  "types": "bcrypt_wasm.d.ts"
+  "main": "bcrypt_fast.js",
+  "types": "bcrypt_fast.d.ts"
 }

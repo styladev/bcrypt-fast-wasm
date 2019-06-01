@@ -1,8 +1,9 @@
 [package]
-name = "bcrypt-wasm"
+name = "bcrypt-fast"
 version = "0.1.0"
 edition = "2018"
-authors = ["Kenan Sulayman <kenan@sly.mn>"]
+authors = ["Kenan Sulayman <kenan@styla.com>"]
+repository = "https://github.com/styladev/bcrypt-fast-wasm"
 
 [lib]
 crate-type = ["cdylib"]
