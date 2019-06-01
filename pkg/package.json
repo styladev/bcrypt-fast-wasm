@@ -1,0 +1,15 @@
+{
+  "name": "bcrypt-wasm",
+  "collaborators": [
+    "Kenan Sulayman <kenan@sly.mn>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "bcrypt_wasm_bg.wasm",
+    "bcrypt_wasm.js",
+    "bcrypt_wasm_bg.js",
+    "bcrypt_wasm.d.ts"
+  ],
+  "main": "bcrypt_wasm.js",
+  "types": "bcrypt_wasm.d.ts"
+}
